@@ -19,3 +19,23 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@keyframes gradient {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+/* Add these animations if you're not using the inline styles */
+.animate-gradient {
+  animation: gradient 8s ease infinite;
+  background-size: 200% auto;
+}
+
+.animate-gradient-border {
+  animation: gradient 4s ease infinite;
+  background-size: 200% auto;
+}
