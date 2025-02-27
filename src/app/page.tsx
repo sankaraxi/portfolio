@@ -33,7 +33,7 @@ export default function Home() {
           <div className="space-y-6">
             <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl">
               <span className="inline-block bg-gradient-to-r from-white via-blue-400 to-white bg-[length:200%_auto] text-transparent bg-clip-text animate-[gradient_8s_ease_infinite]">
-                Sankar Gnanasekar
+                Sankar Gnanasekar's
               </span>
             </h1>
             <p className="text-xl font-medium tracking-wide text-blue-200 sm:text-2xl">
